@@ -1,0 +1,5 @@
+data_r1.csv
+output/
+__pycache__/
+*.pyc
+.DS_Store
