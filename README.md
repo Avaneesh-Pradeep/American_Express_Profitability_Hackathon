@@ -30,7 +30,7 @@ explicit, documented rate assumptions grounded in industry benchmarks.
 priors (not a library call) — a second, independent, purely unsupervised view of the
 same customers, used as a component in the final blend.
 
-**4. Empirical calibration, not guessing.** A single measured accuracy result (58%
+**4. Empirical calibration.** A single measured accuracy result (58%
 top-20% overlap against a held-out evaluation) is converted into a Bayesian prior via a
 bivariate-normal correlation model, solved numerically — this is the one place real
 external feedback enters the pipeline, and it's converted into a precise, reusable
